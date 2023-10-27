@@ -83,11 +83,11 @@ int main()
 
     if (enParo)
     {
-        cout << "El usuario esta en paro." << endl;
+        cout << nombre << " esta en paro." << endl;
     }
     else
     {
-        cout << "El usuario no esta en paro." << endl;
+        cout << nombre << " no esta en paro." << endl;
     }
     cout << "____________________________________________________" << endl;
 
