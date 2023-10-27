@@ -71,14 +71,25 @@ int main()
         enParo = false;
     }
 
+    cout << "____________________________________________________" << endl;
+    cout << "Nombre: " << nombre << "." << endl;
+    cout << "Edad: " << edad << " años" << endl;
+    cout << "Codigo Postal: " << codigoPostal << "." << endl;
+    cout << "Numero DNI: " << numeroDNI << "." << endl;
+    cout << "Letra: " << letraDNI << "." << endl;
+    cout << "Numero de telefono: " << telefono << "." << endl;
+    cout << "El usuario mide " << altura << " metros." << endl;
+    cout << "Salario: " << salario << "€" << endl;
+
     if (enParo)
     {
-        cout << "El usuario esta en paro" << endl;
+        cout << "El usuario esta en paro." << endl;
     }
     else
     {
-        cout << "El usuario no esta en paro" << endl;
+        cout << "El usuario no esta en paro." << endl;
     }
+    cout << "____________________________________________________" << endl;
 
     return 0;
 }
